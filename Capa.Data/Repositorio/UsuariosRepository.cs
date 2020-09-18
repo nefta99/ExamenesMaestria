@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Capa.Core.VistaModelo;
 
 namespace Capa.Data.Repositorio
 {
@@ -29,6 +30,28 @@ namespace Capa.Data.Repositorio
                                                                             new SqlParameter("@nombre", nombre),
                                                                             new SqlParameter("@password", pwd)).FirstOrDefault();
             return datos;
+        }
+
+        public UsuariosVistaModelo ObtenerUsuarioEspecifico(int id)
+        {
+            UsuariosVistaModelo resultado = new UsuariosVistaModelo();
+            resultado = (
+                    from u in Contexto.UsuariosConexion
+                    join t in Contexto.TipoUsuariosConexion on u.TipoUsuarioId equals t.Id
+                    where u.Id == id
+                    select new UsuariosVistaModelo()
+                    {
+                        Id = u.Id,
+                        Nombre = u.Nombre,
+                        Paterno = u.ApellidoPaterno,
+                        Materno = u.ApellidoMaterno,
+                        Contrasenia = u.Contrasenia,
+                        Matricula = u.Matricula,
+                        TipoUsuario = t.TipoUsuario
+                    }
+                ).FirstOrDefault();
+           //Tomamos el resultado y lo mandamos a donde se necesita
+            return resultado;
         }
 
 

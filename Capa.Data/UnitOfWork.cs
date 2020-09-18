@@ -24,7 +24,6 @@ namespace Capa.Data
         {
             _context = context;
             UsuariosRoute = new UsuariosRepository(_context);
-
         }
 
         

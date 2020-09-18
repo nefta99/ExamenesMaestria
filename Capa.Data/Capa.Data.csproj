@@ -83,6 +83,7 @@
       <DependentUpon>202009181415363_matricula.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Modelo\UsuarioModelo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\Repository.cs" />
     <Compile Include="Repositorio\UsuariosRepository.cs" />
