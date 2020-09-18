@@ -68,6 +68,10 @@
     <Compile Include="Migrations\202009180041007_MasTablas.designer.cs">
       <DependentUpon>202009180041007_MasTablas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009180113277_Calificaciones.cs" />
+    <Compile Include="Migrations\202009180113277_Calificaciones.designer.cs">
+      <DependentUpon>202009180113277_Calificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -87,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009180041007_MasTablas.resx">
       <DependentUpon>202009180041007_MasTablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009180113277_Calificaciones.resx">
+      <DependentUpon>202009180113277_Calificaciones.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
