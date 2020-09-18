@@ -84,6 +84,9 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\Repository.cs" />
+    <Compile Include="Repositorio\UsuariosRepository.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,6 +96,10 @@
     <ProjectReference Include="..\Capa.Core\Capa.Core.csproj">
       <Project>{1F49EDF2-4452-4FE1-B02A-26A9C733F2DF}</Project>
       <Name>Capa.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa.Services\Capa.Services.csproj">
+      <Project>{8c331b46-4575-4e93-b57b-1bec30119d9a}</Project>
+      <Name>Capa.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +119,7 @@
       <DependentUpon>202009181415363_matricula.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -19,3 +19,6 @@ C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\Examen
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.Calificaciones.resources
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.historial.resources
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.matricula.resources
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\bin\Debug\Capa.Services.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\bin\Debug\Capa.Services.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\bin\Debug\Capa.Services.dll.config
