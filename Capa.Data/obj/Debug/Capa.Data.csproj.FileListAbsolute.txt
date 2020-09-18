@@ -17,3 +17,4 @@ C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\Examen
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.csproj.GenerateResource.cache
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.MasTablas.resources
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.Calificaciones.resources
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Data\obj\Debug\Capa.Data.Migrations.historial.resources

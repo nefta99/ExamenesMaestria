@@ -74,6 +74,10 @@
     <Compile Include="Migrations\202009180113277_Calificaciones.designer.cs">
       <DependentUpon>202009180113277_Calificaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009180137191_historial.cs" />
+    <Compile Include="Migrations\202009180137191_historial.designer.cs">
+      <DependentUpon>202009180137191_historial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -96,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009180113277_Calificaciones.resx">
       <DependentUpon>202009180113277_Calificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009180137191_historial.resx">
+      <DependentUpon>202009180137191_historial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
