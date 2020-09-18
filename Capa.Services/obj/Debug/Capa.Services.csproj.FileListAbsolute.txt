@@ -4,3 +4,12 @@ C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\Examen
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.csproj.CoreCompileInputs.cache
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.dll
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Services.dll.config
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\EntityFramework.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\EntityFramework.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.csproj.CopyComplete
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Core.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Core.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Core.dll.config
