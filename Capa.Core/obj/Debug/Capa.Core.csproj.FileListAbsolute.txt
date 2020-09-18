@@ -1,0 +1,12 @@
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\Capa.Core.dll.config
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\Capa.Core.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\Capa.Core.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\EntityFramework.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\EntityFramework.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\obj\Debug\Capa.Core.csprojAssemblyReference.cache
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\obj\Debug\Capa.Core.csproj.CoreCompileInputs.cache
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\obj\Debug\Capa.Core.csproj.CopyComplete
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\obj\Debug\Capa.Core.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Core\obj\Debug\Capa.Core.pdb

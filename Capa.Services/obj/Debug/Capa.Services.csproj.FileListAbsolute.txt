@@ -1,0 +1,6 @@
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Services.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\bin\Debug\Capa.Services.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.csprojAssemblyReference.cache
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.csproj.CoreCompileInputs.cache
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\Capa.Services\obj\Debug\Capa.Services.pdb
