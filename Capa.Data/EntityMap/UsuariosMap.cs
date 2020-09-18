@@ -18,6 +18,7 @@ namespace Capa.Data.EntityMap
             Property(p => p.ApellidoPaterno).HasMaxLength(70).IsRequired();
             Property(p => p.ApellidoMaterno).HasMaxLength(60).IsOptional();
             Property(p => p.Contrasenia).HasMaxLength(70).IsRequired();
+            Property(p => p.Matricula).HasMaxLength(70).IsRequired();
         }
     }
 }
