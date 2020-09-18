@@ -18,6 +18,7 @@ namespace Capa.Core.Entity
         public List<Capitulos> Capitulos { get; set; }
         public List<Materias> Materias { get; set; }
         public List<Calificaciones> Calificaciones { get; set; }
+        public List<HistorialPreguntas> HistorialPreguntas { get; set; }
 
 
     }

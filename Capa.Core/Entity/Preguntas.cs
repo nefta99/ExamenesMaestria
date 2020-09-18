@@ -15,5 +15,6 @@ namespace Capa.Core.Entity
         public int CapituloId { get; set; }
         public Capitulos Capitulos { get; set; }
         public List<Respuestas> Respuestas { get; set; }
+        public List<HistorialPreguntas> HistorialPreguntas { get; set; }
     }
 }

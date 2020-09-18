@@ -26,6 +26,8 @@ namespace Capa.Data
             modelBuilder.Configurations.Add(new PreguntasMap());
             modelBuilder.Configurations.Add(new RespuestasMap());
             modelBuilder.Configurations.Add(new CalificacionesMap());
+            modelBuilder.Configurations.Add(new HistorialPreguntasMap());
+            modelBuilder.Configurations.Add(new HistorialRespuestasMap());
         }
         public virtual DbSet<Usuarios> UsuariosConexion { get; set; }
         public virtual DbSet<TipoUsuarios> TipoUsuariosConexion { get; set; }
@@ -35,6 +37,8 @@ namespace Capa.Data
         public virtual DbSet<Preguntas> PreguntasConexion { get; set; }
         public virtual DbSet<Respuestas> RespuestasConexion { get; set; }
         public virtual DbSet<Calificaciones> CalificacionesConexion { get; set; }
+        public virtual DbSet<HistorialPreguntas> HistorialPreguntasConexion { get; set; }
+        public virtual DbSet<HistorialRespuestas> HistorialRespuestasConexion { get; set; }
 
 
     }

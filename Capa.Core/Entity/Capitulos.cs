@@ -16,6 +16,7 @@ namespace Capa.Core.Entity
         public int  MateriaId { get; set; }
         public Materias Materias { get; set; }
         public List<Calificaciones> Calificaciones { get; set; }
+        public List<HistorialPreguntas> HistorialPreguntas { get; set; }
 
 
 

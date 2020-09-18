@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace Capa.Core.Entity
 {
-    public class Respuestas
+    public class HistorialPreguntas
     {
-        public  int Id { get; set; }
-        public string Respuesta { get; set; }
-        public float Valor { get; set; }
+        public int Id { get; set; }
+        public int UsuarioId { get; set; }
+        public Usuarios Usuarios { get; set; }
+        public int CapituloId { get; set; }
+        public Capitulos Capitulos { get; set; }
         public int PreguntaId { get; set; }
         public Preguntas Preguntas { get; set; }
         public List<HistorialRespuestas> HistorialRespuestas { get; set; }
-
     }
 }

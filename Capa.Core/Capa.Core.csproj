@@ -54,6 +54,8 @@
     <Compile Include="Entity\Calificaciones.cs" />
     <Compile Include="Entity\Capitulos.cs" />
     <Compile Include="Entity\Componentes.cs" />
+    <Compile Include="Entity\HistorialPreguntas.cs" />
+    <Compile Include="Entity\HistorialRespuestas.cs" />
     <Compile Include="Entity\Materias.cs" />
     <Compile Include="Entity\Preguntas.cs" />
     <Compile Include="Entity\Respuestas.cs" />

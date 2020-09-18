@@ -55,6 +55,8 @@
     <Compile Include="EntityMap\CalificacionesMap.cs" />
     <Compile Include="EntityMap\CapitulosMap.cs" />
     <Compile Include="EntityMap\ComponentesMap.cs" />
+    <Compile Include="EntityMap\HistorialPreguntasMap.cs" />
+    <Compile Include="EntityMap\HistorialRespuestasMap.cs" />
     <Compile Include="EntityMap\MateriasMap.cs" />
     <Compile Include="EntityMap\PreguntasMap.cs" />
     <Compile Include="EntityMap\RespuestasMap.cs" />
