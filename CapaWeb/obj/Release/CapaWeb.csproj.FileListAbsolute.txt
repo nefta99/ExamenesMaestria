@@ -92,3 +92,9 @@ C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\Examen
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\obj\Release\CapaWeb.csproj.CopyComplete
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\obj\Release\CapaWeb.dll
 C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\obj\Release\CapaWeb.pdb
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Web.Http.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Web.Http.xml
+C:\Users\L03036903\Documents\Apuntes\Maestria\Tecnologias De programacion\ExamenesMaestria\CapaWeb\bin\System.Web.Http.WebHost.xml

@@ -25,6 +25,11 @@ namespace CapaWeb
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            #region scripGenerales
+            bundles.Add(new ScriptBundle("~/bundles/script/Login").Include(
+                      "~/Scripts/Login/Login.js"));
+            #endregion
         }
     }
 }

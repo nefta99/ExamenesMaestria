@@ -49,10 +49,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/18/2020 20:58:15</publishTime>
     </File>
     <File Include="bin/CapaWeb.dll">
-      <publishTime>09/18/2020 20:59:34</publishTime>
+      <publishTime>09/18/2020 21:29:55</publishTime>
     </File>
     <File Include="bin/CapaWeb.pdb">
-      <publishTime>09/18/2020 20:59:34</publishTime>
+      <publishTime>09/18/2020 21:29:55</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>04/16/2020 20:38:42</publishTime>
@@ -213,8 +213,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
       <publishTime>05/24/2018 13:38:24</publishTime>
     </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>11/28/2018 12:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 13:02:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
       <publishTime>11/28/2018 11:59:46</publishTime>
@@ -291,6 +300,198 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>09/16/2020 21:26:22</publishTime>
     </File>
+    <File Include="Scripts/bootstrap/css/bootstrap-theme.css">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/bootstrap-theme.css.map">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/bootstrap.css">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/bootstrap.css.map">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/bootstrap.min.css">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/css/styles.css">
+      <publishTime>09/18/2020 21:20:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/18/2020 21:20:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/18/2020 21:20:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/18/2020 21:20:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/18/2020 21:20:31</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/18/2020 21:20:31</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/js/bootstrap-filestyle.min.js">
+      <publishTime>09/18/2020 21:20:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/js/bootstrap.js">
+      <publishTime>09/18/2020 21:20:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/js/bootstrap.min.js">
+      <publishTime>09/18/2020 21:20:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/js/npm.js">
+      <publishTime>09/18/2020 21:20:46</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/customMessages.css">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/releasenotes.plugin.css">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/screenshot.png">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/style.css">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/template.css">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/css/validationEngine.jquery.css">
+      <publishTime>09/18/2020 21:12:04</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/contrib/other-validations.js">
+      <publishTime>09/18/2020 21:13:31</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/jquery-1.8.2.min.js">
+      <publishTime>09/18/2020 21:12:22</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/jquery.validationEngine.js">
+      <publishTime>09/18/2020 21:12:22</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-ar.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-ca.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-cz.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-da.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-de.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-el.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-en.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-es.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-et.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-fa.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-fi.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-fr.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-he.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-hr.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-hu.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-id.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-it.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-ja.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-lt.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-nl.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-no.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-pl.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-pt.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-pt_BR.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-ro.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-ru.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-sr_Cyrl.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-sr_Latn.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-sv.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-tr.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-uk">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-uk_UA.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-vi.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-zh_CN.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/languages/jquery.validationEngine-zh_TW.js">
+      <publishTime>09/18/2020 21:13:53</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/libs/jquery-1.7.1.min.js">
+      <publishTime>09/18/2020 21:14:18</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/libs/marked.js">
+      <publishTime>09/18/2020 21:14:18</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/libs/modernizr-2.0.6.min.js">
+      <publishTime>09/18/2020 21:14:18</publishTime>
+    </File>
+    <File Include="Scripts/engine/js/releasenotes.js">
+      <publishTime>09/18/2020 21:12:22</publishTime>
+    </File>
     <File Include="Scripts/jquery-3.3.1.js">
       <publishTime>09/16/2020 21:26:23</publishTime>
     </File>
@@ -339,6 +540,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/Valor.cshtml">
       <publishTime>09/18/2020 12:32:35</publishTime>
     </File>
+    <File Include="Views/Login/Index.cshtml">
+      <publishTime>09/18/2020 21:27:40</publishTime>
+    </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/16/2020 21:26:16</publishTime>
     </File>
@@ -352,7 +556,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/16/2020 21:26:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/18/2020 20:58:21</publishTime>
+      <publishTime>09/18/2020 21:29:55</publishTime>
     </File>
   </ItemGroup>
 </Project>
