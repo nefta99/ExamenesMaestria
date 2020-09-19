@@ -53,7 +53,25 @@ namespace Capa.Data.Repositorio
            //Tomamos el resultado y lo mandamos a donde se necesita
             return resultado;
         }
-
+        public  MensajeVistaModelo InsertarUsuarioCompleto(string Nombre, string Paterno, string Materno,string Contrasenia, int tipoUsuarioId, string Matricula)
+        {
+            DataContext context = new DataContext();
+            MensajeVistaModelo mensaje = new MensajeVistaModelo();
+            mensaje.Exito = false;            
+            var numero = context.Database.SqlQuery<int>("sp_insertarUsuarioPerfil @Nombre, @paterno,@materno,@contrasenia,@TipoUsuarioId,@Matricula",
+                                                                            new SqlParameter("@nombre", Nombre),
+                                                                            new SqlParameter("@paterno", Paterno),
+                                                                            new SqlParameter("@materno", Materno),
+                                                                            new SqlParameter("@contrasenia", Contrasenia), 
+                                                                            new SqlParameter("@TipoUsuarioId", tipoUsuarioId), 
+                                                                            new SqlParameter("@Matricula", Matricula)).FirstOrDefault();
+            if (numero>0 )
+            {
+                mensaje.Mensaje = "Exíto se inserto correctamente";
+                mensaje.Exito = true;
+            }
+            return mensaje;
+        }
 
     }
 }

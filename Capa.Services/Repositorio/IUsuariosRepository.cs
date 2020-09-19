@@ -13,5 +13,7 @@ namespace Capa.Services.Repositorio
         Usuarios GetUsuariosPorId(int id);
         int AgregarUsuario(string nombre, string pwd);
         UsuariosVistaModelo ObtenerUsuarioEspecifico(int id);
+        MensajeVistaModelo InsertarUsuarioCompleto(string Nombre, string Paterno, string Materno,
+            string Contrasenia, int tipoUsuarioId, string Matricula);
     }
 }

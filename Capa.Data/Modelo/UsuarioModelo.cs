@@ -20,6 +20,13 @@ namespace Capa.Data.Modelo
 
             return us;
         }
+        public MensajeVistaModelo InsertarUsuario(string Nombre,string Paterno,string Materno,string
+            Contrasenia, int TipoUsuarioId, string Matricula)
+        {
+            MensajeVistaModelo retorno;
+            retorno = unitOfWork.UsuariosRoute.InsertarUsuarioCompleto(Nombre, Paterno, Materno, Contrasenia, TipoUsuarioId, Matricula);
+            return retorno;
+        }
 
     }
 }
