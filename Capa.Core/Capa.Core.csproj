@@ -61,6 +61,7 @@
     <Compile Include="Entity\Respuestas.cs" />
     <Compile Include="Entity\TipoUsuarios.cs" />
     <Compile Include="Entity\Usuarios.cs" />
+    <Compile Include="JsonClassResultado\RespuestaJsonClassResultado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VistaModelo\MensajeVistaModelo.cs" />
     <Compile Include="VistaModelo\UsuariosVistaModelo.cs" />
@@ -69,6 +70,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

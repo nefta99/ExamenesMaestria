@@ -39,42 +39,29 @@ and open the template in the editor.
             //para mandar credenciales al servidor
             jQuery("#signupform").validationEngine();
 
-            $("#btnOk").click(function (event) {
+            //$("#btnOk").click(function (event) {
 
-                var userVar = $('#login-username').val();
-                var passVar = $('#login-password').val();
-                //
-                //                    var ecrUser = encodeURIComponent("=" + userVar);
-                //                    var ecrPass = encodeURIComponent("=" + passVar);
-                //        url = "../cocinas/Pantallas/Default.php?usu="+userVar+"&pass="+passVar+"";
-                //url ="";
+            //    var userVar = $('#login-username').val();
+            //    var passVar = $('#login-password').val();
 
+            //    $.ajax({
+            //        //url:'../cocinas/Sessiones/ValidarSession.php',
+            //        url: '../AppExamenes/Examenes/Clases/Remo/remoto.php',
+            //        type: 'post',
+            //        data: {
+            //            usu: userVar,
+            //            pass: passVar,
+            //            opt: 'acceso'
+            //        },
+            //        datatype: 'json',
+            //        success: function (datos) {
+            //            //lo que va hacer
+            //            console.log(datos)
+            //            document.location.href = '../AppExamenes/Examenes/Vistas/Default.php'
+            //        }
+            //    });
 
-                //                    location.href = url;
-
-                //                      redirect_by_post('../cocinas/Pantallas/Default.php', {
-                //                                        usu: userVar,
-                //                                        pass: passVar
-                //                      }, true);
-                //
-                $.ajax({
-                    //url:'../cocinas/Sessiones/ValidarSession.php',
-                    url: '../AppExamenes/Examenes/Clases/Remo/remoto.php',
-                    type: 'post',
-                    data: {
-                        usu: userVar,
-                        pass: passVar,
-                        opt: 'acceso'
-                    },
-                    datatype: 'json',
-                    success: function (datos) {
-                        //lo que va hacer
-                        console.log(datos)
-                        document.location.href = '../AppExamenes/Examenes/Vistas/Default.php'
-                    }
-                });
-
-            });
+            //});
 
             //para mandar a registrar al usuario registra al usuario
             $("#btn-signup").click(function () {
@@ -303,8 +290,9 @@ and open the template in the editor.
             </div>
 
 
-           
+
 
 </body>
+@Scripts.Render("~/bundles/script/Herramientas")
 @Scripts.Render("~/bundles/script/Login")
 </html>

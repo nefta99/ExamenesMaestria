@@ -29,6 +29,8 @@ namespace CapaWeb
             #region scripGenerales
             bundles.Add(new ScriptBundle("~/bundles/script/Login").Include(
                       "~/Scripts/Login/Login.js"));
+            bundles.Add(new ScriptBundle("~/bundles/script/Herramientas").Include(
+                "~/Scripts/Herramientas/HerramientaUsadas.js"));
             #endregion
         }
     }
