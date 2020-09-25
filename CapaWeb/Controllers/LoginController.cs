@@ -4,7 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
-using Capa.Core.JsonClassResultado;
+using Capa.Core.VistaModelo;
+using Capa.Data.Modelo;
+using Capa.Util;
 
 namespace CapaWeb.Controllers
 {
@@ -18,10 +20,28 @@ namespace CapaWeb.Controllers
         [HttpPost]
         public string ValidarUsuario(string usuario, string pass)
         {
-            RespuestaJsonClassResultado res = new RespuestaJsonClassResultado();
-            res.exito = true;
-            res.Resultado = "Funciono";
-            var json = new JavaScriptSerializer().Serialize(res);
+            MensajeVistaModelo res;
+             UsuarioModelo um = new UsuarioModelo();
+            string json="";
+            try
+            {
+                res = um.validarSeccionUsurio(usuario, pass);
+                if (res.Exito == true)
+                {
+                    System.Web.HttpContext.Current.Session["sessionUsuario"] = usuario;
+                }
+                json=new JavaScriptSerializer().Serialize(res);
+            }catch(Exception e)
+            {
+                res = new MensajeVistaModelo();
+                res.Exito = false;
+                res.Mensaje="Error, contacte al administrador";
+                BitacoraEventos.InsertaError("HomeController", "Index", "Mostrar Usuario", (e.Message == null ? "" : e.Message) + " - " + (e.InnerException == null ? "" : e.InnerException.ToString()) + " - " + (e.StackTrace == null ? "" : e.StackTrace.ToString()), "L03036903");
+
+            }
+            
+           
+            
             return json;
         }
     }

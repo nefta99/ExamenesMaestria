@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Capa.Core.JsonClassResultado
 {
-    public class RespuestaJsonClassResultado
+    public class ValidarResultado
     {
-        public string  Resultado { get; set; }
-        public bool exito { get; set; }
+        public string Mensaje { get; set; }
     }
 }

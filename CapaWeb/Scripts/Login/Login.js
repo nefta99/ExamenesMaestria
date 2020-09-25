@@ -1,22 +1,30 @@
 ﻿var global = urlLocal();
-$(document).ready(function () {
-    alert(global);
+$(document).ready(function () {   
     
     $("#btnOk").click(function () {
         var usuario = $("#login-username").val();
-        var pass = $("#login-password").val();
-        alert("me diste");
-        var paramentros = {
-            "usuario": usuario,            "pass":pass
+        var pass = $("#login-password").val();        
+        var paramentros = {
+            "usuario": usuario,            "pass":pass
         };
         $.ajax({
-            url: global+'//' +'Login/ValidarUsuario',      //'https://localhost:44373/Login/ValidarUsuario', //global + 'Facturacion/TomarDatosFacturacion',
+            url: global+'//' +'Login/ValidarUsuario',     
             type: 'POST',
             cache: false,
             async: false,
             data: paramentros,
             dataType: "json",
             success: function (data) {
+              
+                if (data.Exito == true) {
+                    window.location = global + '/' + 'Home/Index';                   
+                    
+                }
+                else {
+                    alert(data.Mensaje);
+                }
+                
+
             },
             error: errorHandler = function (xhr, errorType, exception) {
                 alert(exception + xhr.statusText);

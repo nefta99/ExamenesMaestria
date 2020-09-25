@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Capa.Core.VistaModelo;
+using Capa.Core.JsonClassResultado;
 
 namespace Capa.Data.Repositorio
 {
@@ -71,6 +72,18 @@ namespace Capa.Data.Repositorio
                 mensaje.Exito = true;
             }
             return mensaje;
+        }
+       public ValidarResultado ValidarUsuario(string matricula, string pass)
+        {
+            DataContext context = new DataContext();
+            MensajeVistaModelo mensaje = new MensajeVistaModelo();
+            mensaje.Exito = false;
+           var resultado = context.Database.SqlQuery<ValidarResultado>("sp_ValidarSeccionUsuario  @matricula, @pass",
+                                                                            new SqlParameter("@matricula", matricula),
+                                                                            new SqlParameter("@pass", pass)).FirstOrDefault();
+
+    
+            return resultado;
         }
 
     }
