@@ -23,6 +23,7 @@ namespace CapaWeb
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/Menus.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
@@ -31,6 +32,8 @@ namespace CapaWeb
                       "~/Scripts/Login/Login.js"));
             bundles.Add(new ScriptBundle("~/bundles/script/Herramientas").Include(
                 "~/Scripts/Herramientas/HerramientaUsadas.js"));
+            bundles.Add(new ScriptBundle("~/bundles/script/Menu").Include(
+                    "~/Scripts/Menu/Menu.js"));
             #endregion
         }
     }

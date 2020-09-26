@@ -1,5 +1,6 @@
 ﻿using Capa.Core.Entity;
 using Capa.Core.JsonClassResultado;
+using Capa.Core.Resultado;
 using Capa.Core.VistaModelo;
 using System;
 using System.Collections.Generic;
@@ -17,5 +18,6 @@ namespace Capa.Services.Repositorio
         MensajeVistaModelo InsertarUsuarioCompleto(string Nombre, string Paterno, string Materno,
             string Contrasenia, int tipoUsuarioId, string Matricula);
         ValidarResultado ValidarUsuario(string matricula, string pass);
+        TipoUsuarioResultado ValidarTipoUsuario(string usuario);
     }
 }

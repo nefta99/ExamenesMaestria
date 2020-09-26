@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Capa.Core.VistaModelo;
 using Capa.Core.JsonClassResultado;
+using Capa.Core.Resultado;
 
 namespace Capa.Data.Repositorio
 {
@@ -84,6 +85,17 @@ namespace Capa.Data.Repositorio
 
     
             return resultado;
+        }
+
+        public TipoUsuarioResultado ValidarTipoUsuario(string usuario)
+        {
+            
+            DataContext context = new DataContext();                        
+            var resultado = context.Database.SqlQuery<TipoUsuarioResultado>("sp_ValidarTipoUsuario  @usuario ",
+                                                                             new SqlParameter("@usuario", usuario)).FirstOrDefault();
+
+
+            return resultado;          
         }
 
     }

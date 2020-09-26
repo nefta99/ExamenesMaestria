@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Capa.Core.JsonClassResultado;
+using Capa.Core.Resultado;
 
 namespace Capa.Data.Modelo
 {
@@ -48,6 +49,18 @@ namespace Capa.Data.Modelo
                 }
             }
             return retorno;
+        }
+        public TipoUsuarioVistaModelo ValidarTipoUsuarioVarios(string usuario)
+        {
+            TipoUsuarioVistaModelo model = new TipoUsuarioVistaModelo();
+            TipoUsuarioResultado tu;
+            //vr = unitOfWork.UsuariosRoute.ValidarUsuario(usuario, pass);
+            tu = unitOfWork.UsuariosRoute.ValidarTipoUsuario(usuario);
+            if(tu != null)
+            {
+                model.TipoUsuario = tu.TipoUsuario;
+            }
+            return model;
         }
     }
 }
