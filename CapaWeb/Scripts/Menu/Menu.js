@@ -36,7 +36,7 @@ function llenarMenu() {
         "user": usuario
     };
     $.ajax({
-        url: global + '//' +'Home/VerTipoUsuario', //'https://localhost:44373/Home/VerTipoUsuario',
+        url: global + '//' +'Home/VerTipoUsuario',
         type: 'POST',
         cache: false,
         async: true,
@@ -46,20 +46,29 @@ function llenarMenu() {
             
             var html = '';
             if (data.TipoUsuario == "Administrador") {
-
+                /*
                 html += '<li><a href="' + data.url + 'Materias.php">Materias</a></li>';
                 html += '<li><a href="' + data.url + 'Capitulos.php">Capitulos</a></li>';
                 html += '<li><a href="' + data.url + 'Preguntas.php" >Preguntas</a></li>';
                 html += '<li><a href="' + data.url + 'Examenes.php" >Examenes</a></li>';
                 html += '<li><a href="' + data.url + 'Resultados.php">Resultados</a></li>';
                 html += '<li><a href="' + data.url + 'Usuarios.php" >Usuarios</a></li>';
+                */            
+                html += '<li><a href="' + data.url + '/Materia/Index">Materias</a></li>';
+                html += '<li><a href="' + data.url + '/Capitulo/Index">Capitulos</a></li>';
+                html += '<li><a href="' + data.url + '/Pregunta/Index" >Preguntas</a></li>';
+                html += '<li><a href="' + data.url + '/Examen/Index" >Examenes</a></li>';
+                html += '<li><a href="' + data.url + '/Resultado/Index">Resultados</a></li>';
+                html += '<li><a href="' + data.url + '/Usuario/Index" >Usuarios</a></li>';
 
             } else {
                 //usuario con perfil de alumno
-
+                /*
                 html += '<li><a href="' + data.url + 'Examenes.php" >Examenes</a></li>';
                 html += '<li><a href="' + data.url + 'Resultados.php">Resultados</a></li>';
-
+                */
+                html += '<li><a href="' + data.url + '/Examen/Index" >Examenes</a></li>';
+                html += '<li><a href="' + data.url + '/Resultado/Index">Resultados</a></li>';
 
             }
 
