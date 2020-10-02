@@ -13,7 +13,23 @@ namespace CapaWeb.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
+
         {
+            
+            try
+            {
+                var user = System.Web.HttpContext.Current.Session["sessionUsuario"];
+                if (user == null )
+                {                                                    
+                    return View("~/Views/Login/Denegado.cshtml");                                    
+                }
+            }
+            catch(Exception e)
+            {
+                BitacoraEventos.InsertaError("HomeController", "Index", "Mostrar Usuario", (e.Message == null ? "" : e.Message) + " - " + (e.InnerException == null ? "" : e.InnerException.ToString()) + " - " + (e.StackTrace == null ? "" : e.StackTrace.ToString()), "");
+            }
+             
+
             return View();
         }
         public ActionResult Valor()

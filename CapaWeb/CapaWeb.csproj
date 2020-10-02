@@ -154,6 +154,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Img\candado.svg" />
+    <Content Include="Img\Denegado.png" />
     <Content Include="Img\Examen.svg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -253,6 +255,7 @@
     <Content Include="Views\Home\Valor.cshtml" />
     <Content Include="Views\Home\insert.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Login\Denegado.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
