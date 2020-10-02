@@ -54,7 +54,7 @@ function llenarMenu() {
                 html += '<li><a href="' + data.url + 'Resultados.php">Resultados</a></li>';
                 html += '<li><a href="' + data.url + 'Usuarios.php" >Usuarios</a></li>';
                 */            
-                html += '<li><a href="' + data.url + '/Materia/Index">Materias</a></li>';
+                html += '<li><a href="' + data.url + '/Materias/Index">Materias</a></li>';
                 html += '<li><a href="' + data.url + '/Capitulo/Index">Capitulos</a></li>';
                 html += '<li><a href="' + data.url + '/Pregunta/Index" >Preguntas</a></li>';
                 html += '<li><a href="' + data.url + '/Examen/Index" >Examenes</a></li>';
